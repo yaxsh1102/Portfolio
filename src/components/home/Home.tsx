@@ -9,10 +9,10 @@ const Home = () => {
     useEffect(() => {
       setTimeout(()=>{
         setIsVisible(true)
-      } ,800)
+      } ,200)
     }, []);
   return (
-    <div className='w-[100%] flex justify-center'>
+    <div className='w-[100%] flex justify-center items-center h-full'>
         <Message isVisible={isVisible}></Message>
 
     </div>

@@ -53,7 +53,7 @@ const Contact = () => {
           </svg>
         </a>
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:yashmishra.vapi@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="hover:text-gray-600 transition-colors"

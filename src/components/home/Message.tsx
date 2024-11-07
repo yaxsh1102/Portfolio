@@ -1,5 +1,5 @@
 import React from 'react'
-const words = ["Hey,👋", "My Name is  ", "Yash Mishra", "I am  a", "Web Developer"];
+const words = ["Hi,👋", "My Name is  ", "Yash Mishra,", "I am  a", "Web Developer"];
 interface homeProps{
     isVisible:boolean ,
 }
@@ -7,7 +7,7 @@ interface homeProps{
 const Message = (props:homeProps) => {
     const{isVisible} = props
   return (
-    <div className='flex  md:flex-row flex-col justify-evenly items-center w-[80%] text-white gap-y-12'>
+    <div className='flex  md:flex-row flex-col justify-evenly items-center w-[80%] text-white gap-y-12 md:mt-16'>
       <div className="space-y-4">
         {words.map((word, index) => (
           <div key={index} className="overflow-hidden [&>:nth-child(3)]:text-gradient-to-b  [&>:nth-child(3)]:from-[#40c9ff] [&>:nth-child(3)]:to-[#e81cff] ">

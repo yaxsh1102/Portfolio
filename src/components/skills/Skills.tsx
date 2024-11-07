@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div className='w-full flex justify-center'>
       <div className='md:w-[40%] w-[80%]'>
-        <p className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#40c9ff] to-[#e81cff]'>Skills</p>
+        <p className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#40c9ff] to-[#e81cff]'>Technologies</p>
 
         <div>
           <div>
